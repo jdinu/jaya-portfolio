@@ -1,0 +1,68 @@
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar{
+        margin-bottom: 0;
+        border-radius:0;
+      /*  background-color: #5e4485;  */
+        background-color: #42c0fb;     
+        color:#ffffff;        
+        padding: 1% 0 ;
+        font-size:1.2em;
+        border:0;
+    }
+    .navbar-brandlogo{
+        float: left;
+        min-height: 55px;
+        padding: 0 15px 5 px;
+    }  
+    .main-theme{
+        background-color: #ffffff;
+        color: #5e4485;
+        font-size:1.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1% 0;
+        
+    }
+   .container-fluid-featured{
+    background-color: #ffffff;
+    color: #8b1a58;
+    font-size:1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1% 0;
+   }
+    /*Aligning the images using float for the featured section */
+   .col-sm-4{
+        text-align: center;
+        float: left;
+        width: 33.33%;
+        padding: 1% 2; 
+   }   
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }    
+/* Footer */
+    footer {
+        background-color: #42c0fb;
+        color: #1d1c1c;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1% 0;
+    }
+/*Media Queries */
+    @media(max-width: 900px){
+        .fa{
+            font-size: 20 px;
+            padding:10px;
+        }
+    }
+    @media (max-width:600px){
+         .img-responsive{
+            max-width: 150px;
+        }
+        h2{    
+            font-size: 1.7em;
+        }
+    }
+   
