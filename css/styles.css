@@ -59,6 +59,15 @@
             font-size: 20 px;
             padding:10px;
         }
+        h1 {
+            font-size: 5.9vw;
+          }
+          h2 {
+            font-size: 3.0vh;
+          }
+          p {
+            font-size: 2vmin;
+          }
     }
     @media (max-width:600px){
          .img-responsive{
@@ -68,8 +77,14 @@
             font-size: 20 px;
             padding:10px;
         }
-        h1,h2{    
-            font-size: 1.7em;
-        }
+        h1 {
+            font-size: 5.9vw;
+          }
+          h2 {
+            font-size: 3.0vh;
+          }
+          p {
+            font-size: 2vmin;
+          }
     }
    
