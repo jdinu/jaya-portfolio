@@ -67,6 +67,7 @@
           }
           p {
             font-size: 2vmin;
+            text-align: left;
           }
           .col-sm-4{
             width : 1000%;
@@ -89,6 +90,7 @@
           }
           p {
             font-size: 2vmin;
+            text-align: left;
           }       
           .col-sm-4{
             width : 100%;
