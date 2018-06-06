@@ -68,6 +68,9 @@
           p {
             font-size: 2vmin;
           }
+          .container-fluid-featured{
+            width : 25%
+          }
     }
     @media (max-width:600px){
          .img-responsive{
@@ -85,6 +88,9 @@
           }
           p {
             font-size: 2vmin;
+          }       
+        .container-fluid-featured{
+            width : 25%
           }
     }
    
