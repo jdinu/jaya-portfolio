@@ -33,6 +33,9 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 1% 0;
    }
+   .img-responsive{
+       width: 100%;
+   }
     /*Aligning the images using float for the featured section */
    .col-sm-4{
         text-align: center;
