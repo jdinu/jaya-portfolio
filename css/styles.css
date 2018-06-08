@@ -83,12 +83,11 @@
             align-self: auto;
             text-align: center;
           }
-          .container-fluid{
-            text-align: center;
-           }
- 
-         
+          .copyright {
+            float: center;
+        }         
     }
+
     @media (max-width:600px){
         .fa{
             font-size: 20 px;
@@ -111,9 +110,7 @@
             align-self: auto;
             text-align: center;
           }
-          .container-fluid{
-           text-align: center;
-          }
-
-
+          .copyright {
+            float: center;
+        }
     }   
