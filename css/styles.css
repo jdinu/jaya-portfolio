@@ -78,17 +78,18 @@
             margin-bottom: 25px;
           }
           .col-sm-4{
-            width : 1000%;
+            width : 48%;
             margin-bottom: 15px;
             align-self: auto;
             text-align: center;
           }
+          .container-fluid{
+            text-align: center;
+           }
+ 
          
     }
     @media (max-width:600px){
-         .img-responsive{
-          max-width: 150px;            
-        }
         .fa{
             font-size: 20 px;
             padding:10px;
@@ -110,5 +111,9 @@
             align-self: auto;
             text-align: center;
           }
+          .container-fluid{
+           text-align: center;
+          }
+
 
     }   
